@@ -1,3 +1,115 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoaoVitor_portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="particulas"></div>
+
+    <!-- Navegação -->
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Início -->
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="./img/Joao_vitor.jpeg" alt="foto de Joao Vitor" class="foto-de-perfil">
+            <h1>João Vitor</ao2.jpgh1>
+                <p class="cabecalho-sub-titulo">Programador Fullstack</p>
+        </div>
+    </main>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Meu primeiro emprego como ajudante de carga e descarga me ensinou a importância do trabalho em equipe.
+                Posteriormente, ao servir na Marinha, desenvolvi ainda mais essa habilidade, além de disciplina,
+                resiliência e foco em excelência. Hoje, atuo como Suporte Técnico em TI, prestando serviços para a
+                Caixa Econômica Federal, com experiência em Python, C#, e banco de dados. Trago comigo valores de
+                dedicação e profissionalismo adquiridos ao longo da minha trajetória, sempre buscando entregar
+                soluções eficientes e de qualidade.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulos">Conheça meus projetos</h2>
+        <div class="projetos-caixas">
+            <a href="https://github.com/VittorLK/Alura_plus.git" target="_blank" rel="noopener noreferrer" class="projetos-card">
+            
+                <img src="./img/alura.png" alt="projeto 1" class="projetos-imagem">
+            
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Streaming</h3>
+                    <p class="paragrafo-projetos">
+                        Site de streaming moderno com animações
+                    </p>
+                </div>
+            </a>
+            <a href="https://github.com/riltonbispo/Catalogo-de-jogos" target="_blank" rel="noopener noreferrer"
+                class="projetos-card">
+            
+                <img src="./img/echo2.png" alt="projeto catálogo de jogos" class="projetos-imagem">
+            
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Catálogo de Jogos</h3>
+                    <p class="paragrafo-projetos">
+                        Site para catalogar e armazenar jogos
+                    </p>
+                </div>
+            </a>
+            <a href="https://github.com/VittorLK/Dasafiotitanic" target="_blank" rel="noopener noreferrer" class="projetos-card">
+                <img src="./img/titanic.png" alt="projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Desafio titanic </h3>
+                    <p class="paragrafo-projetos">Desafio kagle de analise de dados</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seção Contatos -->
+    <section id="contatos" class="contatos">
+    <h2 class="contatos-titulo">Contatos</h2>
+
+    <form class="formulario-contato" id="formulario" >
+        <div class="grupo-form">
+            <input type="text" placeholder="Nome" class="campo-form" id="nome" required>
+        </div>
+
+        <div class="grupo-form">
+            <textarea 
+                class="campo-form" 
+                placeholder="Digite sua mensagem" 
+                rows="6" 
+                id="mensagem"
+                required></textarea>
+        </div>
+
+        <button type="submit" class="botao-form">
+            Enviar WhatsApp
+        </button>
+        <a href="https://www.linkedin.com/in/vitor-campos-2331b023a/" class="Linkedin" target="_blank"  rel="noopener noreferrer">Linkedin</a>
+    </form>
+</section>
+
+   <script src="script.js"></script>
+
+</body>
 
 </html>
